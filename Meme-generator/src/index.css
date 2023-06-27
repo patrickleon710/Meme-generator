@@ -30,3 +30,30 @@ body {
   margin-left: auto;
 }
 
+.meme-section {
+  padding: 50px;
+  width: 480px;
+}
+
+.meme--form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--input {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
+
+.meme-image-btn {
+  background: linear-gradient(to right, #672280 1.18%, #A626D3 100%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  grid-column: 1 / -1;
+  height: 40px;
+  width: 100%;
+}
